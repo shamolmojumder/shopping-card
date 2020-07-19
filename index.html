@@ -29,7 +29,7 @@
                                     <input id="phone_value" type="text" class="form-control text-center" value="0">
                                     <button id="phone_plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
                                 </div>
-                                <h5>$1219</h5>
+                                <h5>$ <span id="phonePrice">0</span> </h5>
                                 <img src="images/remove.png" alt="" class="remove-item">
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                                     <button class="btn btn-default"><i class="fas fa-plus"></i></button>
 
                                 </div>
-                                <h5>$59</h5>
+                                <h5>$00</h5>
                                 <img src="images/remove.png" alt="" class="remove-item">
                             </div>
                         </div>
@@ -64,9 +64,9 @@
                             </div>
 
                             <div class="col-md-4 status">
-                                <h5>$1,278</h5>
+                                <h5>$ <span id="subTotal">0</span></h5>
                                 <h5>$0</h5>
-                                <h5>$1,278</h5>
+                                <h5>$0</h5>
                             </div>
                         </div>
                     </div>
@@ -80,12 +80,7 @@
 
 
     <script src="script.js"></script>
-    <script>
-        document.getElementById("phone_plus").addEventListener("click", function() {
-            const inputNumber = document.getElementById("phone_value").value;
 
-        })
-    </script>
 </body>
 
 </html>
